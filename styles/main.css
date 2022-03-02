@@ -70,7 +70,11 @@
     justify-content: space-between;
   }
 
-  .diversidad {
+  .menu {
+    margin-bottom: 0;
+  }
+
+  .texto {
     font-size: 40px;
   }
 }
