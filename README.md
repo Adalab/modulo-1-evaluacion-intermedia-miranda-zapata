@@ -52,3 +52,5 @@ A partir de **768px**:
 - El menú de la cabecera se coloca **a la derecha**.
 - El texto de las opciones del menú tiene un tamaño de **16px**.
 - El texto del título "Creando Diversidad Digital" tiene un tamaño de **40px**.
+
+_Info completa e imágenes en el .pdf incluido en documents_
