@@ -52,3 +52,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.texto {
+  color: var(--colorDiversidad);
+  font-family: var(--fontRubik);
+  font-size: 30px;
+  text-align: center;
+}
