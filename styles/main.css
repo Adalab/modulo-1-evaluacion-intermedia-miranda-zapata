@@ -58,11 +58,10 @@
   font-family: var(--fontRubik);
   font-size: 30px;
   text-align: center;
-  display: block;
   max-width: min-content;
 }
 
-/* Tablet and more */
+/* Tablet and desktop */
 
 @media all and (min-width: 768px) {
   .cabecera {
