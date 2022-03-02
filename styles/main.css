@@ -64,10 +64,11 @@
 /* Tablet and more */
 
 @media all and (min-width: 768px) {
-  .header {
+  .cabecera {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 10px 20px 10px 30px;
   }
 
   .menu {
