@@ -58,6 +58,7 @@
   font-family: var(--fontRubik);
   font-size: 30px;
   text-align: center;
+  display: block;
   max-width: min-content;
 }
 
@@ -79,3 +80,5 @@
     font-size: 40px;
   }
 }
+
+/* The page works */
