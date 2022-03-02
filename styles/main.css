@@ -33,7 +33,18 @@
   flex-direction: row;
   align-items: center;
   margin-bottom: 13px;
+}
+
+.link {
+  color: var(--colorTextoMenu);
   text-decoration: none;
+  margin: 0 10px;
+  /* 20px espacio entre ambos enlaces */
 }
 
 /* Main */
+
+.main {
+  background-color: var(--colorFondoPagina);
+  height: 100%;
+}
