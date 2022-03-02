@@ -4,7 +4,7 @@
 }
 
 :root {
-  --fontFamily: "Rubik", sans-serif;
+  --fontRubik: "Rubik", sans-serif;
   --colorTextoMenu: #4a4a4a;
   --colorFondoPagina: #3cdbc0;
   --colorDiversidad: #ffffff;
@@ -22,4 +22,11 @@
 
 .logo {
   width: 155px;
+  margin-top: 10px;
 }
+
+.menu {
+  font-family: var(--fontRubik);
+}
+
+/* Main */
