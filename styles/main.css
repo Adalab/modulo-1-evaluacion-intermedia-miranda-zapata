@@ -10,7 +10,7 @@
   --colorDiversidad: #ffffff;
 }
 
-/* Header */
+/* Header mobile */
 
 .cabecera {
   background-color: var(--colorDiversidad);
@@ -42,7 +42,7 @@
   margin: 0 10px;
 }
 
-/* Main */
+/* Main mobile */
 
 .main {
   background-color: var(--colorFondoPagina);
@@ -58,4 +58,19 @@
   font-family: var(--fontRubik);
   font-size: 30px;
   text-align: center;
+  max-width: min-content;
+}
+
+/* Tablet and more */
+
+@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .diversidad {
+    font-size: 40px;
+  }
 }
