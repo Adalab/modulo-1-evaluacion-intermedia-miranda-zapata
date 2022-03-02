@@ -13,4 +13,13 @@
 /* Header */
 
 .cabecera {
+  background-color: var(--colorDiversidad);
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 155px;
 }
