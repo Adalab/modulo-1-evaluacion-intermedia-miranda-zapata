@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -10,20 +11,22 @@
   --colorDiversidad: #ffffff;
 }
 
-/* Header mobile */
+/* Header */
 
-.cabecera {
+.header {
   background-color: var(--colorDiversidad);
-  position: sticky;
+  /* position: sticky; */
   display: flex;
   flex-direction: column;
   align-items: center;
   top: 0;
+  position: fixed;
+  width: 100vw;
 }
 
 .logo {
   width: 155px;
-  margin: 10px 0;
+  padding: 10px 0;
 }
 
 .menu {
@@ -39,10 +42,11 @@
 .link {
   color: var(--colorTextoMenu);
   text-decoration: none;
-  margin: 0 10px;
+  padding: 0 10px;
+  text-transform: uppercase;
 }
 
-/* Main mobile */
+/* Main */
 
 .main {
   background-color: var(--colorFondoPagina);
@@ -53,19 +57,19 @@
   justify-content: center;
 }
 
-.texto {
+.title {
   color: var(--colorDiversidad);
   font-family: var(--fontRubik);
   font-size: 30px;
   text-align: center;
   max-width: min-content;
+  text-transform: capitalize;
 }
 
 /* Tablet and desktop */
 
 @media all and (min-width: 768px) {
-  .cabecera {
-    display: flex;
+  .header {
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 20px 10px 30px;
@@ -75,9 +79,7 @@
     margin-bottom: 0;
   }
 
-  .texto {
+  .title {
     font-size: 40px;
   }
 }
-
-/* The page works */
